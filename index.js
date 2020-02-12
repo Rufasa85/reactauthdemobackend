@@ -11,7 +11,7 @@ var app = express();
 //     credentials:true
 // }));
 app.use(cors({
-    origin:["https://joessimplereactauth.herokuapp.com/"],
+    origin:["https://joessimplereactauth.herokuapp.com"],
     credentials:true
 }));
 // app.use(cors());
